@@ -101,7 +101,7 @@ lcd.clear(); //Limpiar el texto en la LCD
   lcd.setCursor(0, 0);
   lcd.print("  Temp: " + String(data.temperature, 1) + "\xDF"+"C  ");
   lcd.setCursor(0, 1);
-  lcd.print(" Humidity: " + String(data.humidity, 1) + "% ");
+  lcd.print(" Humedad: " + String(data.humidity, 1) + "% ");
   delay(2000);
 
   lcd.clear();
@@ -116,11 +116,11 @@ lcd.clear(); //Limpiar el texto en la LCD
 -  **DHT sensor library for ESPx**
 - **LiquidCrystal I2C**
 
-![](https://github.com/Ricardoramosdelapaz/DHT22-CON-LCD/blob/main/Captura%20lib.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/lib%204.PNG?raw=true).
 
 3. Hacer la conexion de **DHT2** con los sensores **ESP32 y HC-SR04**, junto con la pantalla LCD como se muestra en la siguiente imagen.
 
-![](https://github.com/Ricardoramosdelapaz/DHT22-CON-LCD/blob/main/Captura%20con.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/con%204.PNG?raw=true).
 
 ### Instrucciónes de operación
 
@@ -133,7 +133,10 @@ lcd.clear(); //Limpiar el texto en la LCD
 
 Al iniciar la simulacion, verás los valores dentro del monitor serial y la pantalla LCD como se muestra en la siguente imagen.
 
-![](https://github.com/Ricardoramosdelapaz/DHT22-CON-LCD/blob/main/res.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/res%204.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/res4.1.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/res%204.22.PNG?raw=true).
+![](https://github.com/Ricardoramosdelapaz/DHT22-CON-ULTRASONICO-CON-LCD/blob/main/res4.3.PNG?raw=true).
 
 
 
