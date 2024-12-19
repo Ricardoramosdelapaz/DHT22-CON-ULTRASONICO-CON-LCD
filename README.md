@@ -1,6 +1,6 @@
 # DHT22-CON-ULTRASONICO-CON-LCD
 
-# Practica ESP32 con DHT22 y LCD
+# Practica ESP32 con DHT22, HC-SR04 y LCD
 Este repositorio muestra como podemos programar una ESP32 con los sensores DHT22 y HC-SR04 y al mismo tiempo una pantalla LCD que nos muestre la información recibida por ambos sensores, ademas de cierta informacion personal.
 
 ## Introducción
